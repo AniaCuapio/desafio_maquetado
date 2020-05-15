@@ -42,11 +42,16 @@ footer div.icons{
     justify-content: center;
     font-size: 24px;
 }
-footer div span{
+footer div.icons div{
     border: 1px solid white;
+    height: 40px;
+    width: 40px;
     border-radius: 50px;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .license{
     font-size: 14px;
